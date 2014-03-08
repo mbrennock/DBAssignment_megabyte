@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+    
+    <EditText
+        android:id="@+id/Input"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/msg"
+        android:text="@string/Input" />
+    
+        <EditText
+        android:id="@+id/Output"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/Input"
+        android:text="@string/Input" />
+    
+    <Button
+        android:id="@+id/btnGetText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/GetText"
+        android:layout_below="@+id/Output"
+        android:onClick="getTextPressed" />
+
+    <Button
+        android:id="@+id/btnAddText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/AddText"
+        android:layout_below="@+id/btnGetText"
+        android:onClick="addTextPressed" />
+
+</RelativeLayout>

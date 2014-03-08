@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DBAssignment_Megabyte</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">Write your input text here!</string>
+    <string name="GetText">Get Text</string>
+    <string name="AddText">Add Text</string>
+    <string name="Input"></string>
+    
+</resources>
